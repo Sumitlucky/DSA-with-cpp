@@ -140,18 +140,15 @@ using namespace std;
 
 int main() {
   int n = 4;
-  int k = 1;
- for(int i = 0 ; i<n; i++) {
-    for(int j = 1 ; j<=k;j++) {
-      cout <<j <<" ";
+ for(int i = 1 ; i<=n; i++) {
+    for(int j = 1 ; j<=i;j++) {
+      cout <<j <<"";
+    } 
+    for(int j = 1;j<=2*n-2;j++){
+      cout<<"#";
+    
     }
-    k++; 
-    int n = 6;
-    for(int i = 0;i<n;i++){
-      for(int j = 0;j<n;j++){
-        cout <<"#";
-      }
-    }
+    
     cout<< endl;
   
   
